@@ -332,7 +332,7 @@ export default function Video() {
             {/*Input Video name stored in the metadata*/}
             <h4>Stored in metadata</h4>
             <input className={styles.videoURL} type="text" placeholder="Enter video name (optional)" value={videoName} onChange={(e) => { setVideoName(e.target.value) }} />
-            <input className={styles.videoURL} type="text" placeholder="Enter video description (optional)" value={videoDescription} onChange={(e) => { setVideoDescription(e.target.value) }} />
+            <input className={styles.videoURL} type="text" placeholder="Enter video description, img links, etc. (optional)" value={videoDescription} onChange={(e) => { setVideoDescription(e.target.value) }} />
             {/*Enable DRM via NFTs*/}
             {/* <h4>Enable NFT based DRM with NFT collection address (optional)</h4>
                 {collections.map((collection, index) => (
